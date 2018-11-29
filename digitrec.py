@@ -9,6 +9,8 @@ from keras.layers import Dense
 # import MNIST dataset
 from keras.datasets import mnist
 
+# load data
+(x_train,y_train), (x_test,y_test) = mnist.load_data()
 
 # preprocessing
 x_test = x_test.reshape(x_test.shape[0], 784)
@@ -29,3 +31,12 @@ model.add(Dense(10, activation='softmax'))
 
 # compile the model
 model.compile(optimizer='sgd', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# fit model to the training data a.k.a. "training"
+model.fit(x_train, y_train, batch_size=100, epochs=10, verbose=1)
+
+# evaluate the model on test set 
+score = model.evaluate(x_test, y_test, batch_size=100, verbose=0)
+
+print("\nTest set loss: ", score[0])
+print("Test set accuracy: ", score[1])
