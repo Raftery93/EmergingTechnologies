@@ -79,5 +79,8 @@ The technologies used to create these notebooks are:
  * Visual Studio Code
  * Github / Git
 
+### References
+*See individual notebooks for specific references*
+
 ### Developed by
 Conor Raftery (G00274094)
