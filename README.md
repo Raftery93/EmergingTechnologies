@@ -4,8 +4,26 @@
 ## Description
 This project was created for the purpose of demonstrating emerging technologies in the field of A.I. and Machine Learning. It covers the basic steps needed to understanding Machine Learning.
 
-## Project Timeline
-Research
+## Project Timeline & Research
+**Phase 1**<br>
+Do research on machine learning and emerging technologies via verious websites and through learnonline module page.<br>
+**Phase 2**<br>
+Self teach the Python language.<br>
+**Phase 3**<br>
+Install required software needed for completion of project.<br>
+**Phase 4**<br>
+Gather resources for the numpy.random package and implement.<br>
+**Phase 5**<br>
+Learn how to use graph and charts for the Iris Dataset notebook.<br>
+**Phase 6**<br>
+Do in-depth research into what the Mnist dataset is, and how to use it. Figure out how to write and read bytes.<br>
+**Phase 7**<br>
+Learn how to write a python script. Use knowledge learned within labs for how to build a neural network. Find sources on how to input an image into the python script for digit recognition.<br>
+**Phase 8**<br>
+Write a review/notebook on how well the python script performed.<br>
+**Phase 9**<br>
+Create README.md and reflect on how to improve.
+
 
 ## Content
 The repository contains 5 folders. These folders contain various Jupyter Notebooks. See headings below for the contents of each folder:
@@ -48,9 +66,6 @@ To run the python script, you must open command prompt where the script is locat
 **or**
 <br>
 *python digitrec.py one.jpg*
-
-
-## Research
 
 ## Technologies Used
 The technologies used to create these notebooks are:
